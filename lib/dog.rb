@@ -25,5 +25,6 @@ class Dog
   end
 end
 new_dog = Dog.new("Mutt")
+new_dog.name = "Mutt"
 fido.instance_variable_set( :@name, "Mutt")
 fido.instance_variable_set( :@breed, "Mutt")
