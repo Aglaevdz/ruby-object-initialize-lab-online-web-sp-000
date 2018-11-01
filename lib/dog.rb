@@ -27,4 +27,5 @@ end
 
 dog = Dog.new("Mutt")
 dog.name = "Mutt"
+fido.instance_variable_get(:@name)
 fido.instance_variable_get(:@breed)
