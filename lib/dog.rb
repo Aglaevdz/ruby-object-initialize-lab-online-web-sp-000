@@ -1,6 +1,6 @@
 class Dog
 
-  def initialize(name)
+  def initialize(fido)
     @name = name
   end
 
@@ -10,7 +10,7 @@ class Dog
 
   def name
     @name
-    puts "fido"
+    puts name
   end
 
   def initalize(breed)
