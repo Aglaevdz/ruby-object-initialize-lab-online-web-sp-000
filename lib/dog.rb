@@ -14,7 +14,7 @@ class Dog
   end
 
   def initalize(breed)
-    @breed = breed
+    @breed = "fido"
   end
 
   def breed=(breed)
