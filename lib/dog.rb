@@ -26,4 +26,3 @@ class Dog
 end
 new_dog = Dog.new("Mutt")
 new_dog.name = "Mutt"
-
